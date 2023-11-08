@@ -1,0 +1,238 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+   
+    background-color: #1F2937;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px 0 40px;
+
+}
+
+.links{
+list-style: none;}
+
+.links li{
+display: inline;
+margin-right: 30px;
+font-family: 'Poppins', sans-serif;
+}
+.links a{
+    text-decoration: none;
+    color: white;
+
+}
+.links a:hover{
+    text-decoration: underline;
+}
+h1 a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    
+    
+}
+.hero-container{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-between;
+    padding:20px 60px 20px 60px;
+    align-items: center;
+    height: 400px;
+    flex:1;
+    
+    
+    
+
+}
+img{
+    max-width: 100%;
+    
+}
+.herotext h1,p{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+
+
+}
+
+    
+
+.herotext{
+    height: 250px;
+    width: 100px;
+    
+    padding: 10px;
+    margin-left: 50px;
+    
+    width: 50%;
+    margin-right: 50px;
+    overflow: hidden;
+    overflow-wrap: break-word;
+;
+    
+    
+}
+.picture{
+    height: 250px;
+    width: 100px;
+    margin-right :100px;
+    padding: 10px;
+    width: 50%;
+    margin-left: 50px;
+}
+
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #9fb4f2;
+	background:linear-gradient(to bottom, #2bc7e6 5%, #476e9e 100%);
+	background-color:#2bc7e6;
+	border-radius:6px;
+	border:1px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #476e9e 5%, #2bc7e6 100%);
+	background-color:#476e9e;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+.herotext p{
+    margin-bottom: 20px;
+}
+.picture img{
+    width :100%;
+    height: 30vh;
+    object-fit: fill;
+}
+.content-container{
+   display: flex;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+    
+}
+
+.content-container div{
+    height: 200px;
+    width: 200px;
+    border: solid darkblue 5px;
+    border-radius: 12px;
+    
+}
+.content-container img{
+    border-radius: 12px;
+}
+.content-container h2{
+    overflow-wrap: break-word;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+
+}
+.Quote{
+    padding: 91px 25% ;
+    height: 200px;
+    background-color: lightgray;
+}
+.Quote h2{
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+    font-size: 36px;
+}
+.Quote h3{
+    font-family: 'Poppins', sans-serif;
+
+}
+.heroX{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.heroX div{
+height: 120px ;
+width: 200px;
+background-color: #3882f6;
+
+
+}
+.text{
+    
+    flex-grow: 1;
+    padding: 30px 40px 20px 100px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+
+}
+.button{
+    padding: 60px 40px 20px 10px;
+    text-align: center;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    
+
+
+}
+.text h2{
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: white;
+}
+.boutouna {
+	background-color:rgba(0, 0, 0, 0);
+	border-radius:28px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.boutouna:hover {
+	background-color:#0a0e73;
+}
+.boutouna:active {
+	position:relative;
+	top:1px;
+}
+
+.Footer{
+    padding-top: 35px;
+    height: 70px;
+    background-color:#1F2937 ;
+    text-align: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+
+}
